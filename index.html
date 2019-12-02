@@ -1,66 +1,79 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Page Title</title>
-</head>
-<body>
+  <head>
+    <title> RPSLS</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <style>
+    body {
+  background-image: url('https://images.wallpaperscraft.com/image/triangles_geometric_mosaic_124638_1920x1080.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size:cover ;
+}
+    
+      margin: 0;
+    }
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333 ;
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
 
-<h1>Welcome TO THe Game</h1>
-<p></p>
+    li {
+      float: left;
+    }
 
+    li a {
+      display: block;
+      color: YELLOW;
+      text-align: center;
+      padding: 16px 16px;
+      text-decoration: none;
+    }
 
- <link rel="stylesheet" type="style/css" href="style.css"><div class="container">
-  <div class="top-row text-center">
-  Let's play Rock, Paper, Scissors, Lizard, Spock! 
-  </div>
-  <div class="row">
-    <div class="col-sm-3 col-sm-offset-1 text-center user-title">
-      <h1>You</h1>
-      <span class="scores user-score">0</span>
-    </div>
-    <div class="col-sm-4 text-center">
-      <h1>vs</h1>
-    </div>
-    <div class="col-sm-3 text-center computer-title">
-      <h1>Computer</h1>
-      <span class="scores computer-score">0</span>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-sm-3 col-sm-offset-1 text-center user-choice">
-      <span class=""></span>
-    </div>
-    <div class="col-sm-4 text-center results">
-    </div>
-    <div class="col-sm-3 text-center computer">
-      <span class=""></span>
-    </div>
-  </div>
+    li a:hover:not(.active) {
+      background-color: #111;
+    }
 
-  
-  <div class="row">
-    <div class="col-sm-12 text-center">
-      <h1>Select Your Choice</h1>
+    .active {
+      background-color: #4caf50;
+    }
+    h1 {
+      color:  yellow
+  ;
+      font-size: 80px;
+      position: absolute;
+      text_align: center;
+      left: 35%;
+      top: 50%;
+      font-family: timesnewromangoorgia;
+      
+      font-size: 3em;
+    }
+  </style>
+
+  <body>
+    <div id="main">
+      <nav>
+        <ul>
+          <li><a href="#">HOME</a></li>
+        
+            <li><a href="rule.html">RULES</a></li>
+          <li><a href="play.html">PLAY</a></li>
+        
+        </ul>
+      </nav>
     </div>
-  </div>
-  <div class="row user">
-    <div class="col-sm-2 col-sm-offset-1 text-center">
-      <span class="fa fa-hand-rock-o fa-5x user-fa" data-value="rock"></span>
+    <div class="HOME">
+      
+      <h1>
+      Lets PLay Rock Paper Scissor Lizard Spock</hr>
+      </h1>
     </div>
-    <div class="col-sm-2 text-center">
-      <span class="fa fa-hand-paper-o fa-5x user-fa" data-value="paper"></span>
-    </div>
-    <div class="col-sm-2 text-center">
-      <span class="fa fa-hand-scissors-o fa-5x user-fa" data-value="scissors"></span>
-    </div>
-    <div class="col-sm-2 text-center">
-      <span class="fa fa-hand-lizard-o fa-5x user-fa" data-value="lizard"></span>
-    </div>
-    <div class="col-sm-2 text-center">
-      <span class="fa fa-hand-spock-o fa-5x user-fa" data-value="spock"></span>
-    </div>
-  </div>
-  </div>
-<div class="footer"><a href="https://github.com/mrsdohpaz/rock-paper-scissors-lizard-spock"><span class="fa fa-github"></span></a></div>
-</body>
 </html>
